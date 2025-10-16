@@ -90,8 +90,6 @@ int main() {
     printf("\n");
 
 
-
-
   int opcao;
 
   printf("Escolha uma opção:\n");
@@ -107,39 +105,41 @@ int main() {
     switch (opcao) {
         case 1:
             if(populacao>populacao1){
-                printf("populacao>populacao1\n");
-	    }
+                printf("A Primeira Carta *GANHOU* da Segunda Carta\n");
+            }
             else if(populacao<populacao1){
-                printf("populacao<populacao1\n");
+                printf("A Primeira Carta *PERDEU* da Segunda Carta\n");
             }
             else{
-                printf("populacao eh igual populacao1\n");
+                printf("A Primeira Carta *EMPATOU* com a Segunda Carta\n");                
             }
 	    break;
 
 
         case 2:
             if(numero_de_pontos_turisticos>numero_de_pontos_turisticos1){
-                printf("numero_de_pontos_turisticos>numero_de_pontos_turisticos1\n");
-	    }
+                printf("A Primeira Carta *GANHOU* da Segunda Carta\n");
+
+            }
             else if(numero_de_pontos_turisticos<numero_de_pontos_turisticos1){
-                printf("numero_de_pontos_turisticos<numero_de_pontos_turisticos1\n");
+                printf("A Primeira Carta *PERDEU* da Segunda Carta\n");
+
             }
             else{
-                printf("numero_de_pontos_turisticos eh igual numero_de_pontos_turisticos1\n");
+                printf("A Primeira Carta *EMPATOU* com a Segunda Carta\n");                
             }
 	    break;
 
 
         case 3:
             if(area>area1){
-                printf("area>area1\n");
-	    }
+                printf("A Primeira Carta *GANHOU* da Segunda Carta\n");
+            }
             else if(area<area1){
-                printf("area<area1\n");
+                printf("A Primeira Carta *PERDEU* da Segunda Carta\n");
             }
             else{
-                printf("area eh igual area1\n");
+                printf("A Primeira Carta *EMPATOU* com a Segunda Carta\n");                
             }
 	    break;
 
@@ -147,33 +147,31 @@ int main() {
 
         case 4:
             if(pib>pib1){
-                printf("pib>pib1\n");
-	    }
+                printf("A Primeira Carta *GANHOU* da Segunda Carta\n");           
+	        }
             else if(pib<pib1){
-                printf("pib<pib1\n");
+                printf("A Primeira Carta *PERDEU* da Segunda Carta\n");               
             }
             else{
-                printf("pib eh igual pib1\n");
+                printf("A Primeira Carta *EMPATOU* com a Segunda Carta\n");                 
             }
             break;
 
         case 5:
             if(densidade_demografica>densidade_demografica1){
-                printf("densidade_demografica>densidade_demografica1\n");
+                printf("A Primeira Carta *GANHOU* da Segunda Carta\n");                
 	    }
             else if(densidade_demografica<densidade_demografica1){
-                printf("densidade_demografica<densidade_demografica1\n");
+                printf("A Primeira Carta *PERDEU* da Segunda Carta\n");                 
             }
             else{
-                printf("densidade_demografica eh igual densidade_demografica1\n");
+                printf("A Primeira Carta *EMPATOU* com a Segunda Carta\n");                
             }
 	    break;
 
 	default:
 		printf("nenhuma escolha feita");
 	    break;
-		
-
         }
 
     return 0;
